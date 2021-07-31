@@ -1,0 +1,100 @@
+
+.LabelInput{
+    display: block;
+    float: left;
+    padding-top: 20px; 
+}
+.Input{
+    margin-top: 10px;
+    text-align: center;
+    width: 100px; 
+    height:30px; 
+    display: block;
+    background-color:transparent;
+    margin-right: 20px;
+    border-top:none;
+    border-left:none;
+    border-right:none;
+    border-bottom:3px solid black;
+}
+.Input:hover{
+    border-bottom:3px solid green;
+}
+.Input:hover +.Label{
+    display: block;
+    position: absolute;
+    width: 100px; 
+    height:15px;
+    font-size: 10px;  
+    text-align: center; 
+    color: red;
+    font-weight: 600;
+}
+.Label{
+    display: none;
+}
+.Labeld{
+    display: block;
+    position: absolute;    
+    width: 100px; 
+    height:15px;
+    font-size: 10px;  
+    text-align: center; 
+    color: green;
+    font-weight: 600;
+}
+
+.InputForm{
+    width:100%;
+    margin-left: 10px;
+}
+.Colon{
+    display: inline-block;    
+    
+}
+
+.AdjectElement{
+    float: left;
+
+}
+.Document{
+    display: block;
+    margin-top: 20px;
+       
+}
+
+.DocumentInputDisplayNone{
+    display:none;
+}
+.LabelImg {
+    clear: both;    
+    display: block;
+    width:100px;
+    height:30px;
+    text-align: left;    
+    font-size: 10px;
+    color: black;
+    background-color: rgb(200, 227, 250);
+    
+    text-align: center;
+    margin-bottom: 5px;
+}
+.UpladButton{
+    display: flex;
+    clear: both;
+    align-items: center;
+    margin-left: 17%;
+    position: relative;
+    width:60px;
+    height:auto;  
+    font-size: 10px;
+    color: white;
+    background-color: #536b54;
+    
+}
+.showImage{
+    display:block;
+}
+.hideImage{
+    display:none;
+}

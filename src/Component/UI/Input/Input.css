@@ -1,0 +1,79 @@
+
+.LabelInput{
+    display: flex;
+    float: left;
+    padding-top: 20px; 
+    align-items: center;
+}
+.Input{
+    margin-top: 10px;
+    text-align: center;
+    width: 80%; 
+    height:30px; 
+    display: block;
+    background-color:transparent;
+    margin-right: 20px;
+    border-top:1PX solid rgb(155, 151, 151);
+    border-left:1PX solid rgb(155, 151, 151);
+    border-right:1PX solid  rgb(155, 151, 151);
+    border-bottom:3px solid  rgb(155, 151, 151);
+}
+.Input:hover{
+    border-bottom:3px solid rgb(128, 5, 230);
+}
+.Input:hover +.Label{
+    display: block;   
+    width: 80%;
+    height: 15px;
+    font-size: 10px;
+    text-align: center;
+    color: red;
+    font-weight: 600;
+}
+.Label{
+    display: none;
+}
+.Labeld{
+    display: block;   
+    width: 80%;
+    height: 15px;
+    font-size: 10px;
+    text-align: center;
+    color: rgb(255, 136, 0);
+    font-weight: 600;
+}
+
+.InputForm{
+    width:100%;
+    margin-left: 10px;
+}
+.Colon{
+    display: inline-block;    
+    
+}
+
+.AdjectElement{
+    float: left;
+
+}
+.Document{
+    display: block;
+       
+}
+
+.DocumentInputDisplayNone{
+    display:none;
+}
+.LabelImg {
+    clear: both;
+    display: block;
+    position: relative;
+    width:100px;
+    height:30px;
+    text-align: left;
+    display: block;
+    font-size: 10px;
+    color: white;
+    background-color: #4caf50;
+    text-align: center;
+}

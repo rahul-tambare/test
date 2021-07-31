@@ -1,0 +1,51 @@
+.Middle {
+  /* width: 100%; */
+
+  /* min-width: 50%; */
+  /* position: relative; */
+
+  display: block;
+  flex-flow: right;
+  overflow-y: auto;
+  height: 100%;
+  position: fixed;
+  top: 100px;
+  left: 470px;
+}
+.Left {
+  top: 1;
+  left: 0;
+  /* width: 25%; */
+  /* position: relative; */
+  display: block;
+  background: #f1f1f1;
+  /* height: auto; */
+  /* min-height: 595px; */
+  flex-flow: right;
+  overflow-y: auto;
+  height: 90%;
+  position: fixed;
+}
+.Right {
+  /* position: relative; */
+  width: auto;
+  display: block;
+  /* min-width: 25%; */
+  background: #f1f1f1;
+  /* height: auto; */
+  /* min-height: 595px; */
+  flex-flow: right;
+  overflow-y: auto;
+  height: 90%;
+  position: fixed;
+}
+.Default {
+  display: block;
+  background-color: green;
+  /* height: auto; */
+  /* min-height: 80px; */
+  width: auto;
+  overflow-y: auto;
+  height: 90%;
+  position: fixed;
+}

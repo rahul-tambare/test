@@ -1,0 +1,37 @@
+.dashboardContainer {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.blocks {
+  width: 30%;
+  display: block;
+  border: 1px solid pink;
+}
+.header {
+  color: darkviolet;
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+.fieldsBlock {
+  color: lightseagreen;
+  display: inline-block;
+  width: 100%;
+  /* flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: flex-start; */
+}
+.field {
+  display: inline-block;
+  width: 80%;
+}
+.value {
+  display: inline-block;
+  width: 10%;
+}

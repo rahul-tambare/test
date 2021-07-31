@@ -1,0 +1,134 @@
+.Table {
+  width: 100%;
+  margin: auto;
+}
+.Caption {
+  width: auto;
+  height: auto;
+  background-color: orange;
+  text-align: center;
+}
+/* table-header-group */
+.THead {
+  display: table-header-group;
+  background-color: lightslategrey;
+  color: white;
+}
+.TableBody {
+  /* text-align: center; */
+  color: green;
+}
+
+.TableRow {
+  background-color: #eeeeee;
+}
+/* .TableRow :{
+    background-color: black;
+} */
+.TableRow:nth-child(even) {
+  color: black;
+  background-color: #dddddd;
+}
+/* .Th{
+    border:1px solid green;
+} */
+.cent40 {
+  width: 40px;
+  text-align: center;
+}
+.cent150 {
+  width: 150px;
+  text-align: center;
+}
+.left150 {
+  width: 150px;
+  text-align: left;
+  padding-left: 5px;
+}
+.cent100 {
+  width: 100px;
+  text-align: center;
+}
+.cent200 {
+  width: 200px;
+  text-align: center;
+}
+.left200 {
+  width: 200px;
+  text-align: left;
+}
+.cent8 {
+  width: 2%;
+  text-align: left;
+}
+.Update {
+  width: 100px;
+  text-align: center;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 800;
+  background-color: rgb(216, 129, 16);
+  cursor: pointer;
+}
+.Delete {
+  width: 100px;
+  text-align: center;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 800;
+  background-color: rgb(243, 9, 1);
+  cursor: pointer;
+}
+/* .TableRow:nth-child(even) .Update {
+    color:green;
+    background-color: #dddddd;
+  } */
+.PopBox {
+  z-index: 200;
+  width: 500px;
+  height: 500px;
+  position: fixed;
+  top: calc(50% - 250px);
+  left: calc(50% - 250px);
+  vertical-align: middle;
+  background-color: white;
+}
+
+.Header {
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid black;
+  background-color: orange;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.Header.Title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+.closeButton {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+.closeButton:hover {
+  color: red;
+}
+.Body {
+  padding: 10px 15px;
+  width: 100%;
+}
+.seeProfile {
+  width: 100px;
+  text-align: center;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 800;
+  background-color: rgba(10, 243, 154, 0.178);
+  cursor: pointer;
+}

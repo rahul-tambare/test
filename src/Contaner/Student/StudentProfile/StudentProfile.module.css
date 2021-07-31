@@ -1,0 +1,55 @@
+.profileCart {
+  margin: auto;
+  width: 60%;
+  background: #fff;
+  border-radius: 20px;
+}
+.header {
+  text-align: center;
+}
+.main {
+  display: block;
+  width: 100%;
+  min-height: 100px;
+}
+.form {
+  display: inline-block;
+  width: 70%;
+}
+.photo {
+  display: inline-block;
+  width: 29%;
+}
+.attrabut {
+  display: block;
+  /* border-bottom: 10px solid rgb(156, 31, 31); */
+  width: 100%;
+}
+.variable {
+  display: inline-block;
+  width: 40%;
+}
+.value {
+  display: inline-block;
+  width: 50%;
+}
+.attrabutHead {
+  background: orange;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  display: block;
+  width: 100%;
+}
+.valVari {
+  border-bottom: 1px solid rgb(156, 31, 31);
+}
+.Box {
+  margin-top: 0px;
+  clear: both;
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  border: 1px solid rgb(109, 109, 112);
+  background-color: rgb(250, 250, 250);
+}

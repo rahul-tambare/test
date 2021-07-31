@@ -1,0 +1,72 @@
+.Table {
+  margin-top: 40px;
+  margin-left: 40px;
+  background-color: bisque;
+  display: flexbox;
+  border-collapse: collapse;
+  /* outline: pink solid 5px; */
+  border: 1px solid pink;
+}
+.Table tr {
+  background-color: #fff;
+
+  box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.1);
+}
+.Table td {
+  /* border-radius: 10px; */
+  padding: 5px 3px;
+  justify-content: space-between;
+}
+.td1 {
+  background-color: beige;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-top: 1px solid pink;
+  border-bottom: 1px solid pink;
+  border-right: 1px solid pink;
+}
+.td2 {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-left: 1px solid pink;
+  border-right: 1px solid pink;
+  border-top: 1px solid pink;
+  border-bottom: 1px solid pink;
+  /* margin-right: 20px; */
+}
+.td3 {
+  background-color: lightpink;
+  width: 10px;
+}
+.Submit {
+  color: green;
+}
+.TdSubmit {
+  display: flex;
+  text-align: center;
+  background-color: green;
+}
+.Title {
+  background-color: pink;
+  /* height: 30px; */
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-top: 1px solid pink;
+  border-bottom: 1px solid pink;
+  border-right: 1px solid pink;
+  justify-content: space-between;
+  /* text-align: center; */
+}
+.Close {
+  cursor: pointer;
+
+  /* float: "right"; */
+  font-size: 2em;
+  color: red;
+  font-weight: bold;
+}
+.NotValid {
+  color: red;
+  font-size: 0.8rem;
+  background-color: white;
+}

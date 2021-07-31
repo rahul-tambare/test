@@ -1,0 +1,50 @@
+.NavigationItem {
+  margin: 1px;
+  display: block;
+  text-align: center;
+  float: left;
+}
+.A {
+  box-sizing: border-box;
+  background-color: white;
+  /* padding:10px 10px; */
+  color: #703b09;
+}
+.Button {
+  display: block;
+  box-sizing: inherit;
+  border: none;
+  background-color: inherit;
+  text-align: center;
+  font-weight: 900;
+  color: inherit;
+  padding: 10px 10px;
+}
+.A:hover,
+.Active {
+  color: white;
+  background-color: #703b09;
+}
+.div {
+  display: none;
+  margin-top: 0px;
+  margin-left: 0px;
+  padding: 0;
+  padding-left: 0;
+  position: absolute;
+}
+.NavigationItem:hover .div {
+  display: block;
+}
+@media (max-width: 500px) {
+  .A {
+    width: 100px;
+  }
+  .div {
+    margin-left: 75px;
+    margin-top: -39px;
+  }
+}
+.NavigationItemclick {
+  display: block;
+}

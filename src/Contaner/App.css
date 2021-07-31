@@ -1,0 +1,16 @@
+.App {
+  display: block;
+  position: relative;
+  background: #f1f1f1;
+  min-height: 100px;
+}
+
+.DisplayContant {
+  display: block;
+}
+/* .form {
+     background-color: lavender; 
+    width: 80%;
+    height: 80%; 
+}
+*/

@@ -1,0 +1,30 @@
+.Title {    
+    text-align: center;
+    background-color: goldenrod;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.Form{    
+    /* float: left; */
+    /* margin-right: 5%; */
+    /* border:1px solid orange;    */
+    display: flex;
+    justify-content: center;
+    width:100%;
+    margin-top: 10px;
+    
+    
+}
+/* .cover{
+    border-right: 1px solid gray;    
+} */
+.Table{
+    display: inline-grid;    
+    /* margin-right: 5%; */
+    border-collapse: collapse;
+   
+}
+.Submit{
+    background: orange;
+    margin-top: -20px;
+    margin-bottom: 20px;
+}

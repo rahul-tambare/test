@@ -1,0 +1,23 @@
+.input {
+  border-color: gray;
+  width: 150px;
+  height: 30px;
+}
+.checkmark {
+  /* position: absolute; */
+  align-items: center;
+  top: 0;
+  left: 0;
+  height: 30px;
+  width: 30px;
+  background-color: #eee;
+}
+.Submit {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 12px 40px;
+  text-decoration: none;
+  /* margin: 4px 2px; */
+  cursor: pointer;
+}
