@@ -151,8 +151,7 @@
     "presets": [
       "react-app"
     ]
-  },
-  "proxy": "http://localhost:5000",
+  },  
   "devDependencies": {
     "redux": "^4.1.0"
   }
